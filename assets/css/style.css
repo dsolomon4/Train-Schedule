@@ -1,8 +1,14 @@
 .jumbo-header {
     text-align: center;
     margin: 20px 0px;
+    opacity: .9;
 }
 
 .card {
     margin: 20px 0px;
+    opacity: .95;
+}
+
+body{
+    background: url("../images/railway-tracks-3455169_1920.jpg")
 }
