@@ -95,7 +95,7 @@ database.ref().on("value", function (snapshot) {
     // console.log(newRow)
 
     $("#train-display").append(newRow);
-    newRow.append($("<td>")).text(tName);
+    $("#name-display").text(tName);
     $("#destination-display").append(tDestination);
     $("#frequency-display").append(tFrequency);
     $("#next-display").append(nextTrain);
